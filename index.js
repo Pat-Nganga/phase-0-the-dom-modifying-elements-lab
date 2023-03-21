@@ -1,12 +1,9 @@
-const main = document.querySelector('main#main');
-main.remove();
+
+//document.getElementById('main').remove()
+const main =document.getElementById('main')
+main.remove()
 
 const newHeader = document.createElement('h1');
-newHeader.id = 'victory';
-newHeader.textContent = 'PATRICIA is the champion';
+newHeader.id = 'victory'
 
-document.body.appendChild(newHeader);
-
-
-
-
+newHeader.textContent = "PATRICIA is the champion"
